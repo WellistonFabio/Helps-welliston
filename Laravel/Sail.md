@@ -9,3 +9,6 @@
 ## Criar model, Migration e Controller
 
     sail art make:model Export -mr
+
+## O Tinker é um console interativo do Laravel, um shell do PHP com acesso às classes do nosso projeto.
+    sail tinker
