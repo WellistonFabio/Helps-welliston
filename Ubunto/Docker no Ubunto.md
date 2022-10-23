@@ -25,3 +25,6 @@ Permissão de usuários no sistema:
     Para executar um arquivo de script
 
     sh arquivo
+    
+## Comando para executar dentro do container 
+    docker-compose exec laravel.test bash  
