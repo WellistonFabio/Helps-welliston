@@ -72,4 +72,4 @@
 
 ## Instalar o Docker
 
-  - Encontre tu em : https://docs.docker.com/engine/install/ubuntu/
+  - Encontre tudo em : https://docs.docker.com/engine/install/ubuntu/
