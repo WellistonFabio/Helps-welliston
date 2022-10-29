@@ -29,4 +29,9 @@
 
 ### Instação do valet no linux -- https://cpriego.github.io/valet-linux/
 
+    sudo apt-get install network-manager libnss3-tools jq xsel
     
+    -Instalar PHP extensions
+    
+    sudo apt install php-mbstring php-cli php-curl php-xml php-mysql php-pgsql php-sqlite3
+
