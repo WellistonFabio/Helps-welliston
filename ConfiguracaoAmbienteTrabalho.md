@@ -31,7 +31,19 @@
 
     sudo apt-get install network-manager libnss3-tools jq xsel
     
-    -Instalar PHP extensions
-    
     sudo apt install php-mbstring php-cli php-curl php-xml php-mysql php-pgsql php-sqlite3
+    
+    composer global require cpriego/valet-linux
+    
+  #### editar o arquico bashrc
+    
+    nano .bashrc
+    
+    ---- na ultima linha vc vai incluir:
+    export PATH=$PATH:$HOME/.config/composer/vendor/bin/
+    
+  #### fazer o load do arquivo bashrc
+  
+    source ~/.bashrc
+    
 
