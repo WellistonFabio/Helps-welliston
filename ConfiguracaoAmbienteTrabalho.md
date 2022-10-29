@@ -54,3 +54,19 @@
 ### Para e desabilitar o Apache 2
 
     sudo systemctl disable apache2
+
+  #### Registrando Ditetório no valet.
+    
+  - crie um diretório onde ficarão os projetos web.
+    Exemplo:
+        
+        mkdir code
+  
+  - Entre no diretório escolido:
+  
+        valet park
+        
+  - Comando para ver as paths;
+        
+        valet paths
+        
