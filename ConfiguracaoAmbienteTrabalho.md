@@ -27,4 +27,6 @@
 
     nvm install node
 
+### Instação do valet no linux -- https://cpriego.github.io/valet-linux/
 
+    
