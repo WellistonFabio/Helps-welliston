@@ -47,4 +47,10 @@
   
     source ~/.bashrc
     
+  #### - Instalar o Valet.
+    
+    valet install
+    
+### Para e desabilitar o Apache 2
 
+    sudo systemctl disable apache2
