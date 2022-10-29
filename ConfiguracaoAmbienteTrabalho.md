@@ -35,14 +35,14 @@
     
     composer global require cpriego/valet-linux
     
-  #### editar o arquico bashrc
+  #### - editar o arquico bashrc
     
     nano .bashrc
     
     ---- na ultima linha vc vai incluir:
     export PATH=$PATH:$HOME/.config/composer/vendor/bin/
     
-  #### fazer o load do arquivo bashrc
+  #### - fazer o load do arquivo bashrc
   
     source ~/.bashrc
     
