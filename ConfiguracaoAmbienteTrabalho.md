@@ -69,4 +69,7 @@
   - Comando para ver as paths;
         
         valet paths
-        
+
+## Instalar o Docker
+
+  - Encontre tu em : https://docs.docker.com/engine/install/ubuntu/
