@@ -13,7 +13,12 @@
 
     sudo mv composer.phar /usr/local/bin/composer
 
-###Instalar o Curl
+### Instalar o Curl
     
     sudu apt install curl
     
+### Instalação do NVM
+    
+    curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+    
+    source ~/.bashrc 
