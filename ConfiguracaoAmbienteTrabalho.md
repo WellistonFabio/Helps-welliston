@@ -62,7 +62,7 @@
         
         mkdir code
   
-  - Entre no diretório escolido:
+  - Entre no diretório escolido: todos os projetos no diretório vão ser acessado "http://diretorio.test"
   
         valet park
         
