@@ -14,7 +14,7 @@ Configurar o email do usuario.
 
 Verificar se esta tudo certo
 
-    cat .gitconfig
+    cat ~/.gitconfig
 
 ## Comandos Git
 
