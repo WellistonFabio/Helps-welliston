@@ -19,6 +19,7 @@
 ### Create new laravel app
     $ cd ~/.valet/Sites
     $ valet park
+    $ valet paths
     $ composer create-project --prefer-dist laravel/laravel appname
 ### Fix problem in installing laravel
     $ sudo apt install resolvconf
