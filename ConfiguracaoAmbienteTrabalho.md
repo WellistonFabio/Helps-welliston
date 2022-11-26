@@ -69,6 +69,10 @@
   - Comando para ver as paths;
         
         valet paths
+        
+## Instalar o laravel CLI
+
+    composer global requere laravel/installer
 
 ## Instalar o Docker
 
@@ -110,7 +114,4 @@
 ## Takeout: https://github.com/tighten/takeout
 
     composer global require tightenco/takeout
-    
-## Instalar o laravel CLI
-
-    composer global requere laravel/installer
+   
