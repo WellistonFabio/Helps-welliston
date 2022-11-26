@@ -15,7 +15,7 @@
 
 ### Instalação do Curl
     
-    sudu apt install curl
+    sudo apt install curl
     
 ### Instalação do NVM
     
