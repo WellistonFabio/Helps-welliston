@@ -70,7 +70,7 @@
         
         valet paths
         
-## Instalar o laravel CLI
+### Instalar o laravel CLI
 
     composer global requere laravel/installer
 
