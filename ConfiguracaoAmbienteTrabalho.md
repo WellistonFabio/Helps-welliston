@@ -54,6 +54,10 @@
 ### Para e desabilitar o Apache 2
 
     sudo systemctl disable apache2
+    
+    sudo apt-get remove apache2
+    
+    sudo apt-get autoremove apache2
 
   #### Registrando Ditetório no valet.
     
