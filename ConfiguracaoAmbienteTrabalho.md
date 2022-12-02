@@ -31,7 +31,7 @@
 
     sudo apt-get install network-manager libnss3-tools jq xsel
     
-    sudo apt install php-mbstring php-cli php-curl php-xml php-mysql php-pgsql php-sqlite3
+    sudo apt install php-fpm php-curl php-mbstring php-mysql php-xml php-cli unzip network-manager libnss3-tools jq xsel
     
     composer global require cpriego/valet-linux
     
