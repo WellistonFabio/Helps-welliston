@@ -119,3 +119,30 @@
 
     composer global require tightenco/takeout
    
+   
+   
+   
+##   Instale o PHP 8.2 no Ubuntu 22.04
+### 1. Execute as atualizações do sistema
+#### A primeira coisa a fazer em um novo sistema é atualizar nossos repositórios para torná-los atualizados. Execute o comando de atualização também.
+
+        sudo apt update && apt upgrade -y
+
+2. Adicione o repositório Ondrej sury PPA
+Para executar o PHP 8.2 no Ubuntu 22.04, precisamos adicionar Ondrej sury PPA em nosso sistema. Este é o mantenedor do repositório PHP no momento. Este PPA não está verificado no momento, portanto, a instalação a partir dele não garantirá resultados de 100%.
+
+Para adicionar este PPA, use o seguinte comando em nosso terminal.
+
+sudo add-apt-repository ppa:ondrej/php
+Após a conclusão da instalação, precisamos atualizar os repositórios novamente para que as alterações entrem em vigor.
+
+sudo apt update
+Leia também:  Como instalar várias versões do PHP no Ubuntu 22.04
+
+3. Instale o PHP 8.2 no Ubuntu 22.04
+Agora devemos poder instalar o PHP 8.2 na máquina Linux Ubuntu 22.04. Os comandos a serem executados são os compartilhados abaixo:
+
+sudo apt install php8.2 -y
+Verifique a versão atualmente ativa do PHP com o seguinte comando:
+
+php --version
