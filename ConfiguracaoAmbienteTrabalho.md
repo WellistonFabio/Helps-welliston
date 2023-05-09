@@ -133,16 +133,44 @@ Para executar o PHP 8.2 no Ubuntu 22.04, precisamos adicionar Ondrej sury PPA em
 
 Para adicionar este PPA, use o seguinte comando em nosso terminal.
 
-sudo add-apt-repository ppa:ondrej/php
+        sudo add-apt-repository ppa:ondrej/php
+
 Após a conclusão da instalação, precisamos atualizar os repositórios novamente para que as alterações entrem em vigor.
 
-sudo apt update
+        sudo apt update
+        
 Leia também:  Como instalar várias versões do PHP no Ubuntu 22.04
 
 3. Instale o PHP 8.2 no Ubuntu 22.04
 Agora devemos poder instalar o PHP 8.2 na máquina Linux Ubuntu 22.04. Os comandos a serem executados são os compartilhados abaixo:
 
-sudo apt install php8.2 -y
+        sudo apt install php8.2 -y
+        
 Verifique a versão atualmente ativa do PHP com o seguinte comando:
 
-php --version
+        php --version
+        
+
+4. Instale as extensões do PHP 8.2
+Além do próprio PHP, você provavelmente desejará instalar alguns módulos PHP adicionais. Você pode usar este comando para instalar módulos adicionais, substituindo  PACKAGE_NAME pelo pacote que deseja instalar:
+
+        sudo apt-get install php8.2-PACKAGE_NAME
+
+Você também pode instalar mais de um pacote por vez. Aqui estão algumas sugestões dos módulos mais comuns que você provavelmente desejará instalar:
+
+        sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
+
+Este comando irá instalar os seguintes módulos:
+
+php8.2-cli - interpretador de comandos, útil para testar scripts PHP a partir de um shell ou executar tarefas gerais de scripts de shell
+php8.2-common - documentação, exemplos e módulos comuns para PHP
+php8.2-mysql - para trabalhar com bancos de dados MySQL
+php8.2-zip - para trabalhar com arquivos compactados
+php8.2-gd - para trabalhar com imagens
+php8.2-mbstring - usado para gerenciar strings não-ASCII
+php8.2-curl - permite fazer solicitações HTTP em PHP
+php8.2-xml - para trabalhar com dados XML
+php8.2-bcmath - usado ao trabalhar com flutuadores de precisão
+As configurações do PHP relacionadas ao Apache são armazenadas em arquivos  /etc/php/8.2/apache2/php.ini. Você pode listar todos os módulos PHP carregados com o seguinte comando:
+
+        php -m
